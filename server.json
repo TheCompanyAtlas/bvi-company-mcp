@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheCompanyAtlas/bvi-company",
+  "title": "British Virgin Islands Company Registry",
+  "description": "British Virgin Islands company search by name, company number, incorporation date and agent.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/TheCompanyAtlas/bvi-company-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thecompanyatlas.com/tools/bvi-company-registry",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecompanyatlas.com/mcp/bvi"
+    }
+  ]
+}
